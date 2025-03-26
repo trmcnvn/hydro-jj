@@ -32,8 +32,11 @@ Display jj working copy change id, bookmark, state, and repaints asynchronously!
 </pre>
 
 > `💥` indicates that there is a conflict on the commit
+> 
 > `🚧` indicates that the commit has diverged
+> 
 > `👻` indicates that this commit is hidden
+> 
 > `🔒` indicates that this commit is immutable
 
 Display [`$CMD_DURATION`](https://fishshell.com/docs/current/language.html?highlight=cmd_duration#envvar-CMD_DURATION) when > `1` second. [Configurable](#configuration).
