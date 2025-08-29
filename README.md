@@ -1,6 +1,6 @@
 # Hydro JJ
 
-A fork of [jorgebucaran/hydro](https://github.com/jorgebucaran/hydro) for [Jujutsu](github.com/jj-vcs/jj) support.
+A fork of [jorgebucaran/hydro](https://github.com/jorgebucaran/hydro) for [Jujutsu](https://github.com/jj-vcs/jj) support.
 
 [![](https://user-images.githubusercontent.com/56996/103166797-f807ee00-4868-11eb-9818-c661584274c8.gif)](#hydro)
 
