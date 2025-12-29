@@ -26,9 +26,9 @@ Modify variables using `set --universal` from the command line or `set --global`
 | `hydro_symbol_jj_divergent` | string | jj divergent symbol.            | `🚧`    |
 | `hydro_symbol_jj_hidden`    | string | jj hidden symbol.               | `👻`    |
 | `hydro_symbol_jj_immutable` | string | jj immutable symbol.            | `🔒`    |
+| `hydro_symbol_jj`           | string | jj symbol.                      | `󱗆`    |
 
 ### Colors
-
 > Any argument accepted by [`set_color`](https://fishshell.com/docs/current/cmds/set_color.html).
 
 | Variable               | Type  | Description                    | Default              |
@@ -53,6 +53,9 @@ Modify variables using `set --universal` from the command line or `set --global`
 | `fish_prompt_pwd_dir_length`   | numeric | The number of characters to display when path shortening. Set it to `0` to display only the topmost (current) directory. | `1`     |
 | `hydro_ignored_jj_paths`       | strings | Space separated list of paths where no jj info should be displayed.                                                     | `""`    |
 | `hydro_cmd_duration_threshold` | numeric | Minimum command duration, in milliseconds, after which command duration is displayed.                                    | `1000`  |
+| `hydro_jj_change_id_len`       | numeric | Length of the JJ Change ID | `8` |
+| `hydro_jj_empty_str`           | string  | Text to display when on an empty commit | `(empty)` |
+| `hydro_jj_description_str`     | string  | Text to display when no description is set | `(no description set)` |
 
 ## License
 
